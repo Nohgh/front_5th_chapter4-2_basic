@@ -111,7 +111,6 @@ jobs:
               INP: getMetricValue(report, 'experimental-interaction-to-next-paint'),
               CLS: getMetricValue(report, 'cumulative-layout-shift')
             };
-
             const reportUrl = `.lighthouseci/${latestReport.replace('.json', '.html')}`;
 
             const body = `## 🚨 웹사이트 성능 측정 결과
